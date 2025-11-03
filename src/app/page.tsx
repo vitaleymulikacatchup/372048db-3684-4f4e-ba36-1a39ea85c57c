@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -50,7 +50,7 @@ export default function Home() {
             }
           ]}
           imageSrc="https://images.pexels.com/photos/9511241/pexels-photo-9511241.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Luxury fashion runway show with models"
+          imageAlt="Models walking down a stylish runway in white dresses during an elegant indoor fashion show."
         />
       </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
               company: "Vogue Italia",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/7205933/pexels-photo-7205933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              text: "Absolutely stunning showcase of haute couture craftsmanship and innovation."
+              imageAlt: "An elegant woman in trendy attire leans thoughtfully on a stylish chair, exuding a sense of modern fashion."
             },
             {
               id: "2",
@@ -122,7 +122,7 @@ export default function Home() {
               company: "Luxury Brands Inc",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/1845840/pexels-photo-1845840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              text: "The epitome of fashion excellence and luxury presentation."
+              imageAlt: "Portrait of a woman with bold makeup and curls, exuding elegance against a dark background."
             },
             {
               id: "3",
@@ -131,7 +131,7 @@ export default function Home() {
               company: "Elite Fashion Studio",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/7205899/pexels-photo-7205899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              text: "Unparalleled access to the fashion industry's most prestigious event."
+              imageAlt: "Stylish woman in black leather outfit reclines in a minimalist studio with open space."
             },
             {
               id: "4",
@@ -140,7 +140,7 @@ export default function Home() {
               company: "Style Authority",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/7205933/pexels-photo-7205933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              text: "A transformative experience that defines luxury fashion at its finest."
+              imageAlt: "An elegant woman in trendy attire leans thoughtfully on a stylish chair, exuding a sense of modern fashion."
             }
           ]}
         />
@@ -156,7 +156,7 @@ export default function Home() {
           buttonText="Request Invitation"
           termsText="By submitting, you agree to receive exclusive fashion event updates and invitations."
           imageSrc="https://images.pexels.com/photos/16985141/pexels-photo-16985141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Luxury fashion show venue"
+          imageAlt="Elegant indoor HOF party setup with decorated flowers and a sophisticated sign backdrop."
         />
       </div>
 
